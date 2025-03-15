@@ -22,7 +22,7 @@
     "momentum": 0.9,
     "weight_decay": 0.0005,
     "lr_power": 0.9,
-    "epochs": 400,
+    "epochs": 200,
 
     "loss": "crossentropy",
     "class_weight": "enet"
