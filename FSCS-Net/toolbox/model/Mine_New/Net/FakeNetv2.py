@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import collections
 from collections import OrderedDict
 from Backbone.SegFormer.mix_transformer import mit_b0, mit_b1, mit_b2, mit_b3, mit_b4, mit_b5
-from toolbox.model.Mine.Block.MLPDecoder import DecoderHead
+from toolbox.model.Mine_New.Block.MLPDecoder import DecoderHead
 from toolbox.model.Mine_New.Block.RDMFv1 import RDMF
 from toolbox.model.Mine_New.Block.Attention_v1 import Mute
 from toolbox.model.Mine_New.Block.Sober import SobelOperator
